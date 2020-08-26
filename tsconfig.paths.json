@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", /* Base directory to resolve non-absolute module names. */
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      // Views
+      "@view/*": [
+        "src/*"
+      ],
+      "@atom/*": [
+        "src/components/atoms/*"
+      ],
+      "@molecule/*": [
+        "src/components/molecules/*"
+      ],
+      "@organism/*": [
+        "src/components/organisms/*"
+      ],
+      "@template/*": [
+        "src/components/templates/*"
+      ],
+      "@animation/*": [
+        "src/components/animations/*"
+      ],
+      "@style/*": [
+        "src/styles/*"
+      ],
+      // Utilities
+      "@utile/*": [
+        "src/utilites/*"
+      ],
+    }, /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
+  }
+}
